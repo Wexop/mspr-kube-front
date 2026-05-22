@@ -8,6 +8,8 @@
 
 html, body {
     height: 100%;
+    background-color: #22222b;
+    z-index: -100;
 }
 
 @theme inline {
