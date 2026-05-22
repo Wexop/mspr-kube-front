@@ -7,6 +7,7 @@
     "ci": "pnpm build && pnpm test --run && pnpm typecheck",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
+    "serve": "vite preview",
     "test": "vitest",
     "typecheck": "react-router typegen && tsc"
   },
