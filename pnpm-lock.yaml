@@ -17,6 +17,9 @@ importers:
       '@mantine/hooks':
         specifier: ^9.0.0
         version: 9.0.0(react@19.2.4)
+      '@mantine/mcp-server':
+        specifier: ^9.2.1
+        version: 9.2.1
       '@react-router/node':
         specifier: 7.13.2
         version: 7.13.2(react-router@7.13.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)
@@ -552,6 +555,11 @@ packages:
     resolution: {integrity: sha512-TKcz+k0JH/jtblBfwOw/vXBX2EpJO66psJ5ZVmdDhwc6vbHDsvY6oYN8ynt9TfRn/eHZXsEmLPNj+wuGtWy4BA==}
     peerDependencies:
       react: ^19.2.0
+
+  '@mantine/mcp-server@9.2.1':
+    resolution: {integrity: sha512-geFiUiFhvz/IUvefMxdleDw8CO4RW8bzOzBSPmHcK+8SgOLAH259nj2Y7TFLeuIheRNDa721vcPQVT85OOLpeA==}
+    engines: {node: '>=20.9.0'}
+    hasBin: true
 
   '@mjackson/node-fetch-server@0.2.0':
     resolution: {integrity: sha512-EMlH1e30yzmTpGLQjlFmaDAjyOeZhng1/XCd7DExR8PNAnG/G1tyruZxEoUe11ClnwGhGrtsdnyyUx1frSzjng==}
@@ -4072,6 +4080,8 @@ snapshots:
   '@mantine/hooks@9.0.0(react@19.2.4)':
     dependencies:
       react: 19.2.4
+
+  '@mantine/mcp-server@9.2.1': {}
 
   '@mjackson/node-fetch-server@0.2.0': {}
 
